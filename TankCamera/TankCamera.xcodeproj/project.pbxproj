@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECC2E5B6194B0F4F009FD9A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC2E5B5194B0F4F009FD9A0 /* Foundation.framework */; };
+		ECC2E5B8194B0F4F009FD9A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC2E5B7194B0F4F009FD9A0 /* CoreGraphics.framework */; };
+		ECC2E5BA194B0F4F009FD9A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC2E5B9194B0F4F009FD9A0 /* UIKit.framework */; };
+		ECC2E5C0194B0F4F009FD9A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECC2E5BE194B0F4F009FD9A0 /* InfoPlist.strings */; };
+		ECC2E5C2194B0F4F009FD9A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC2E5C1194B0F4F009FD9A0 /* main.m */; };
+		ECC2E5C6194B0F4F009FD9A0 /* TCMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC2E5C5194B0F4F009FD9A0 /* TCMAppDelegate.m */; };
+		ECC2E5C8194B0F4F009FD9A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC2E5C7194B0F4F009FD9A0 /* Images.xcassets */; };
+		ECC2E5CF194B0F4F009FD9A0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC2E5CE194B0F4F009FD9A0 /* XCTest.framework */; };
+		ECC2E5D0194B0F4F009FD9A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC2E5B5194B0F4F009FD9A0 /* Foundation.framework */; };
+		ECC2E5D1194B0F4F009FD9A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC2E5B9194B0F4F009FD9A0 /* UIKit.framework */; };
+		ECC2E5D9194B0F4F009FD9A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECC2E5D7194B0F4F009FD9A0 /* InfoPlist.strings */; };
+		ECC2E5DB194B0F4F009FD9A0 /* TankCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC2E5DA194B0F4F009FD9A0 /* TankCameraTests.m */; };
+		ECC2E5E7194B0F7C009FD9A0 /* AVCaptureMultipeerVideoDataOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC2E5E6194B0F7C009FD9A0 /* AVCaptureMultipeerVideoDataOutput.m */; };
+		ECC2E5EA194B0F90009FD9A0 /* TCMRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC2E5E9194B0F90009FD9A0 /* TCMRootViewController.m */; };
+		ECC2E5F5194B4F04009FD9A0 /* border.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC2E5F3194B4F04009FD9A0 /* border.png */; };
+		ECC2E5F6194B4F04009FD9A0 /* border@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC2E5F4194B4F04009FD9A0 /* border@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECC2E5D2194B0F4F009FD9A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC2E5AA194B0F4F009FD9A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC2E5B1194B0F4F009FD9A0;
+			remoteInfo = TankCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECC2E5B2194B0F4F009FD9A0 /* TankCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TankCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC2E5B5194B0F4F009FD9A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECC2E5B7194B0F4F009FD9A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECC2E5B9194B0F4F009FD9A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECC2E5BD194B0F4F009FD9A0 /* TankCamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TankCamera-Info.plist"; sourceTree = "<group>"; };
+		ECC2E5BF194B0F4F009FD9A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECC2E5C1194B0F4F009FD9A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECC2E5C3194B0F4F009FD9A0 /* TankCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TankCamera-Prefix.pch"; sourceTree = "<group>"; };
+		ECC2E5C4194B0F4F009FD9A0 /* TCMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCMAppDelegate.h; sourceTree = "<group>"; };
+		ECC2E5C5194B0F4F009FD9A0 /* TCMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCMAppDelegate.m; sourceTree = "<group>"; };
+		ECC2E5C7194B0F4F009FD9A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECC2E5CD194B0F4F009FD9A0 /* TankCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TankCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC2E5CE194B0F4F009FD9A0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ECC2E5D6194B0F4F009FD9A0 /* TankCameraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TankCameraTests-Info.plist"; sourceTree = "<group>"; };
+		ECC2E5D8194B0F4F009FD9A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECC2E5DA194B0F4F009FD9A0 /* TankCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TankCameraTests.m; sourceTree = "<group>"; };
+		ECC2E5E5194B0F7C009FD9A0 /* AVCaptureMultipeerVideoDataOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCaptureMultipeerVideoDataOutput.h; sourceTree = "<group>"; };
+		ECC2E5E6194B0F7C009FD9A0 /* AVCaptureMultipeerVideoDataOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCaptureMultipeerVideoDataOutput.m; sourceTree = "<group>"; };
+		ECC2E5E8194B0F90009FD9A0 /* TCMRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMRootViewController.h; sourceTree = "<group>"; };
+		ECC2E5E9194B0F90009FD9A0 /* TCMRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCMRootViewController.m; sourceTree = "<group>"; };
+		ECC2E5F3194B4F04009FD9A0 /* border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = border.png; sourceTree = "<group>"; };
+		ECC2E5F4194B4F04009FD9A0 /* border@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "border@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECC2E5AF194B0F4F009FD9A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC2E5B8194B0F4F009FD9A0 /* CoreGraphics.framework in Frameworks */,
+				ECC2E5BA194B0F4F009FD9A0 /* UIKit.framework in Frameworks */,
+				ECC2E5B6194B0F4F009FD9A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC2E5CA194B0F4F009FD9A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC2E5CF194B0F4F009FD9A0 /* XCTest.framework in Frameworks */,
+				ECC2E5D1194B0F4F009FD9A0 /* UIKit.framework in Frameworks */,
+				ECC2E5D0194B0F4F009FD9A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECC2E5A9194B0F4F009FD9A0 = {
+			isa = PBXGroup;
+			children = (
+				ECC2E5BB194B0F4F009FD9A0 /* TankCamera */,
+				ECC2E5D4194B0F4F009FD9A0 /* TankCameraTests */,
+				ECC2E5B4194B0F4F009FD9A0 /* Frameworks */,
+				ECC2E5B3194B0F4F009FD9A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECC2E5B3194B0F4F009FD9A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECC2E5B2194B0F4F009FD9A0 /* TankCamera.app */,
+				ECC2E5CD194B0F4F009FD9A0 /* TankCameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECC2E5B4194B0F4F009FD9A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECC2E5B5194B0F4F009FD9A0 /* Foundation.framework */,
+				ECC2E5B7194B0F4F009FD9A0 /* CoreGraphics.framework */,
+				ECC2E5B9194B0F4F009FD9A0 /* UIKit.framework */,
+				ECC2E5CE194B0F4F009FD9A0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECC2E5BB194B0F4F009FD9A0 /* TankCamera */ = {
+			isa = PBXGroup;
+			children = (
+				ECC2E5F3194B4F04009FD9A0 /* border.png */,
+				ECC2E5F4194B4F04009FD9A0 /* border@2x.png */,
+				ECC2E5E4194B0F7C009FD9A0 /* AVCaptureMultipeerVideoDataOutput */,
+				ECC2E5C4194B0F4F009FD9A0 /* TCMAppDelegate.h */,
+				ECC2E5C5194B0F4F009FD9A0 /* TCMAppDelegate.m */,
+				ECC2E5C7194B0F4F009FD9A0 /* Images.xcassets */,
+				ECC2E5BC194B0F4F009FD9A0 /* Supporting Files */,
+				ECC2E5E8194B0F90009FD9A0 /* TCMRootViewController.h */,
+				ECC2E5E9194B0F90009FD9A0 /* TCMRootViewController.m */,
+			);
+			path = TankCamera;
+			sourceTree = "<group>";
+		};
+		ECC2E5BC194B0F4F009FD9A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECC2E5BD194B0F4F009FD9A0 /* TankCamera-Info.plist */,
+				ECC2E5BE194B0F4F009FD9A0 /* InfoPlist.strings */,
+				ECC2E5C1194B0F4F009FD9A0 /* main.m */,
+				ECC2E5C3194B0F4F009FD9A0 /* TankCamera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECC2E5D4194B0F4F009FD9A0 /* TankCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECC2E5DA194B0F4F009FD9A0 /* TankCameraTests.m */,
+				ECC2E5D5194B0F4F009FD9A0 /* Supporting Files */,
+			);
+			path = TankCameraTests;
+			sourceTree = "<group>";
+		};
+		ECC2E5D5194B0F4F009FD9A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECC2E5D6194B0F4F009FD9A0 /* TankCameraTests-Info.plist */,
+				ECC2E5D7194B0F4F009FD9A0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECC2E5E4194B0F7C009FD9A0 /* AVCaptureMultipeerVideoDataOutput */ = {
+			isa = PBXGroup;
+			children = (
+				ECC2E5E5194B0F7C009FD9A0 /* AVCaptureMultipeerVideoDataOutput.h */,
+				ECC2E5E6194B0F7C009FD9A0 /* AVCaptureMultipeerVideoDataOutput.m */,
+			);
+			path = AVCaptureMultipeerVideoDataOutput;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECC2E5B1194B0F4F009FD9A0 /* TankCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC2E5DE194B0F4F009FD9A0 /* Build configuration list for PBXNativeTarget "TankCamera" */;
+			buildPhases = (
+				ECC2E5AE194B0F4F009FD9A0 /* Sources */,
+				ECC2E5AF194B0F4F009FD9A0 /* Frameworks */,
+				ECC2E5B0194B0F4F009FD9A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TankCamera;
+			productName = TankCamera;
+			productReference = ECC2E5B2194B0F4F009FD9A0 /* TankCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECC2E5CC194B0F4F009FD9A0 /* TankCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC2E5E1194B0F4F009FD9A0 /* Build configuration list for PBXNativeTarget "TankCameraTests" */;
+			buildPhases = (
+				ECC2E5C9194B0F4F009FD9A0 /* Sources */,
+				ECC2E5CA194B0F4F009FD9A0 /* Frameworks */,
+				ECC2E5CB194B0F4F009FD9A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC2E5D3194B0F4F009FD9A0 /* PBXTargetDependency */,
+			);
+			name = TankCameraTests;
+			productName = TankCameraTests;
+			productReference = ECC2E5CD194B0F4F009FD9A0 /* TankCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECC2E5AA194B0F4F009FD9A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TCM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Hipo;
+				TargetAttributes = {
+					ECC2E5CC194B0F4F009FD9A0 = {
+						TestTargetID = ECC2E5B1194B0F4F009FD9A0;
+					};
+				};
+			};
+			buildConfigurationList = ECC2E5AD194B0F4F009FD9A0 /* Build configuration list for PBXProject "TankCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECC2E5A9194B0F4F009FD9A0;
+			productRefGroup = ECC2E5B3194B0F4F009FD9A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECC2E5B1194B0F4F009FD9A0 /* TankCamera */,
+				ECC2E5CC194B0F4F009FD9A0 /* TankCameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECC2E5B0194B0F4F009FD9A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC2E5F6194B4F04009FD9A0 /* border@2x.png in Resources */,
+				ECC2E5C0194B0F4F009FD9A0 /* InfoPlist.strings in Resources */,
+				ECC2E5F5194B4F04009FD9A0 /* border.png in Resources */,
+				ECC2E5C8194B0F4F009FD9A0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC2E5CB194B0F4F009FD9A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC2E5D9194B0F4F009FD9A0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECC2E5AE194B0F4F009FD9A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC2E5C2194B0F4F009FD9A0 /* main.m in Sources */,
+				ECC2E5EA194B0F90009FD9A0 /* TCMRootViewController.m in Sources */,
+				ECC2E5E7194B0F7C009FD9A0 /* AVCaptureMultipeerVideoDataOutput.m in Sources */,
+				ECC2E5C6194B0F4F009FD9A0 /* TCMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC2E5C9194B0F4F009FD9A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC2E5DB194B0F4F009FD9A0 /* TankCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECC2E5D3194B0F4F009FD9A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC2E5B1194B0F4F009FD9A0 /* TankCamera */;
+			targetProxy = ECC2E5D2194B0F4F009FD9A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECC2E5BE194B0F4F009FD9A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC2E5BF194B0F4F009FD9A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECC2E5D7194B0F4F009FD9A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC2E5D8194B0F4F009FD9A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECC2E5DC194B0F4F009FD9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECC2E5DD194B0F4F009FD9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECC2E5DF194B0F4F009FD9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TankCamera/TankCamera-Prefix.pch";
+				INFOPLIST_FILE = "TankCamera/TankCamera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECC2E5E0194B0F4F009FD9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TankCamera/TankCamera-Prefix.pch";
+				INFOPLIST_FILE = "TankCamera/TankCamera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ECC2E5E2194B0F4F009FD9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TankCamera.app/TankCamera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TankCamera/TankCamera-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TankCameraTests/TankCameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ECC2E5E3194B0F4F009FD9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TankCamera.app/TankCamera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TankCamera/TankCamera-Prefix.pch";
+				INFOPLIST_FILE = "TankCameraTests/TankCameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECC2E5AD194B0F4F009FD9A0 /* Build configuration list for PBXProject "TankCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC2E5DC194B0F4F009FD9A0 /* Debug */,
+				ECC2E5DD194B0F4F009FD9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC2E5DE194B0F4F009FD9A0 /* Build configuration list for PBXNativeTarget "TankCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC2E5DF194B0F4F009FD9A0 /* Debug */,
+				ECC2E5E0194B0F4F009FD9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC2E5E1194B0F4F009FD9A0 /* Build configuration list for PBXNativeTarget "TankCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC2E5E2194B0F4F009FD9A0 /* Debug */,
+				ECC2E5E3194B0F4F009FD9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECC2E5AA194B0F4F009FD9A0 /* Project object */;
+}

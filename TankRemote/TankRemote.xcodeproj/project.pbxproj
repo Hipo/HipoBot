@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC1263B3181A707C00D93E25 /* BTRRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC12639D181A707C00D93E25 /* BTRRootViewController.m */; };
+		EC1263B4181A707C00D93E25 /* BTRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1263A0181A707C00D93E25 /* BTRAppDelegate.m */; };
+		EC1263B5181A707C00D93E25 /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1263A4181A707C00D93E25 /* BLE.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EC1263B6181A707C00D93E25 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1263A8181A707C00D93E25 /* UIView+AutoLayout.m */; };
+		EC1263B7181A707C00D93E25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1263AB181A707C00D93E25 /* Images.xcassets */; };
+		EC1263B8181A707C00D93E25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC1263AD181A707C00D93E25 /* InfoPlist.strings */; };
+		EC1263B9181A707C00D93E25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1263B0181A707C00D93E25 /* main.m */; };
+		EC87F2F8180C335A005C0D00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC87F2F7180C335A005C0D00 /* Foundation.framework */; };
+		EC87F2FA180C335A005C0D00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC87F2F9180C335A005C0D00 /* CoreGraphics.framework */; };
+		EC87F2FC180C335A005C0D00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC87F2FB180C335A005C0D00 /* UIKit.framework */; };
+		ECC2E5EE194B1277009FD9A0 /* SGSVideoPeer.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC2E5ED194B1277009FD9A0 /* SGSVideoPeer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC12639C181A707C00D93E25 /* BTRRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTRRootViewController.h; sourceTree = "<group>"; };
+		EC12639D181A707C00D93E25 /* BTRRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTRRootViewController.m; sourceTree = "<group>"; };
+		EC12639F181A707C00D93E25 /* BTRAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTRAppDelegate.h; sourceTree = "<group>"; };
+		EC1263A0181A707C00D93E25 /* BTRAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTRAppDelegate.m; sourceTree = "<group>"; };
+		EC1263A3181A707C00D93E25 /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
+		EC1263A4181A707C00D93E25 /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
+		EC1263A5181A707C00D93E25 /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
+		EC1263A7181A707C00D93E25 /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		EC1263A8181A707C00D93E25 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		EC1263AB181A707C00D93E25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC1263AE181A707C00D93E25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC1263B0181A707C00D93E25 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC1263B1181A707C00D93E25 /* TankRemote-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TankRemote-Info.plist"; sourceTree = "<group>"; };
+		EC1263B2181A707C00D93E25 /* TankRemote-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TankRemote-Prefix.pch"; sourceTree = "<group>"; };
+		EC87F2F4180C335A005C0D00 /* TankRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TankRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC87F2F7180C335A005C0D00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC87F2F9180C335A005C0D00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC87F2FB180C335A005C0D00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC87F310180C335B005C0D00 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ECC2E5EC194B1277009FD9A0 /* SGSVideoPeer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSVideoPeer.h; sourceTree = "<group>"; };
+		ECC2E5ED194B1277009FD9A0 /* SGSVideoPeer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGSVideoPeer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC87F2F1180C335A005C0D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC87F2FA180C335A005C0D00 /* CoreGraphics.framework in Frameworks */,
+				EC87F2FC180C335A005C0D00 /* UIKit.framework in Frameworks */,
+				EC87F2F8180C335A005C0D00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC12639A181A707C00D93E25 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EC12639B181A707C00D93E25 /* Controllers */,
+				EC12639E181A707C00D93E25 /* Delegates */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EC12639B181A707C00D93E25 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC12639C181A707C00D93E25 /* BTRRootViewController.h */,
+				EC12639D181A707C00D93E25 /* BTRRootViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EC12639E181A707C00D93E25 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				EC12639F181A707C00D93E25 /* BTRAppDelegate.h */,
+				EC1263A0181A707C00D93E25 /* BTRAppDelegate.m */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		EC1263A1181A707C00D93E25 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				ECC2E5EB194B1277009FD9A0 /* SGSVideoPeer */,
+				EC1263A2181A707C00D93E25 /* BLE_Framework */,
+				EC1263A6181A707C00D93E25 /* UIView+AutoLayout */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		EC1263A2181A707C00D93E25 /* BLE_Framework */ = {
+			isa = PBXGroup;
+			children = (
+				EC1263A3181A707C00D93E25 /* BLE.h */,
+				EC1263A4181A707C00D93E25 /* BLE.m */,
+				EC1263A5181A707C00D93E25 /* BLEDefines.h */,
+			);
+			path = BLE_Framework;
+			sourceTree = "<group>";
+		};
+		EC1263A6181A707C00D93E25 /* UIView+AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				EC1263A7181A707C00D93E25 /* UIView+AutoLayout.h */,
+				EC1263A8181A707C00D93E25 /* UIView+AutoLayout.m */,
+			);
+			path = "UIView+AutoLayout";
+			sourceTree = "<group>";
+		};
+		EC1263A9181A707C00D93E25 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC1263AA181A707C00D93E25 /* Assets */,
+				EC1263AC181A707C00D93E25 /* Localization */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EC1263AA181A707C00D93E25 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EC1263AB181A707C00D93E25 /* Images.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		EC1263AC181A707C00D93E25 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				EC1263AD181A707C00D93E25 /* InfoPlist.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		EC1263AF181A707C00D93E25 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				EC1263B0181A707C00D93E25 /* main.m */,
+				EC1263B1181A707C00D93E25 /* TankRemote-Info.plist */,
+				EC1263B2181A707C00D93E25 /* TankRemote-Prefix.pch */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		EC87F2EB180C335A005C0D00 = {
+			isa = PBXGroup;
+			children = (
+				EC12639A181A707C00D93E25 /* Classes */,
+				EC1263A1181A707C00D93E25 /* Dependencies */,
+				EC1263A9181A707C00D93E25 /* Resources */,
+				EC1263AF181A707C00D93E25 /* Support */,
+				EC87F2F6180C335A005C0D00 /* Frameworks */,
+				EC87F2F5180C335A005C0D00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC87F2F5180C335A005C0D00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC87F2F4180C335A005C0D00 /* TankRemote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC87F2F6180C335A005C0D00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC87F2F7180C335A005C0D00 /* Foundation.framework */,
+				EC87F2F9180C335A005C0D00 /* CoreGraphics.framework */,
+				EC87F2FB180C335A005C0D00 /* UIKit.framework */,
+				EC87F310180C335B005C0D00 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECC2E5EB194B1277009FD9A0 /* SGSVideoPeer */ = {
+			isa = PBXGroup;
+			children = (
+				ECC2E5EC194B1277009FD9A0 /* SGSVideoPeer.h */,
+				ECC2E5ED194B1277009FD9A0 /* SGSVideoPeer.m */,
+			);
+			path = SGSVideoPeer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC87F2F3180C335A005C0D00 /* TankRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC87F320180C335B005C0D00 /* Build configuration list for PBXNativeTarget "TankRemote" */;
+			buildPhases = (
+				EC87F2F0180C335A005C0D00 /* Sources */,
+				EC87F2F1180C335A005C0D00 /* Frameworks */,
+				EC87F2F2180C335A005C0D00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TankRemote;
+			productName = TankRemote;
+			productReference = EC87F2F4180C335A005C0D00 /* TankRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC87F2EC180C335A005C0D00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BTR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Hipo;
+				TargetAttributes = {
+					EC87F2F3180C335A005C0D00 = {
+						DevelopmentTeam = W9875NV3WF;
+					};
+				};
+			};
+			buildConfigurationList = EC87F2EF180C335A005C0D00 /* Build configuration list for PBXProject "TankRemote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC87F2EB180C335A005C0D00;
+			productRefGroup = EC87F2F5180C335A005C0D00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC87F2F3180C335A005C0D00 /* TankRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC87F2F2180C335A005C0D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1263B7181A707C00D93E25 /* Images.xcassets in Resources */,
+				EC1263B8181A707C00D93E25 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC87F2F0180C335A005C0D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1263B9181A707C00D93E25 /* main.m in Sources */,
+				EC1263B5181A707C00D93E25 /* BLE.m in Sources */,
+				EC1263B6181A707C00D93E25 /* UIView+AutoLayout.m in Sources */,
+				ECC2E5EE194B1277009FD9A0 /* SGSVideoPeer.m in Sources */,
+				EC1263B3181A707C00D93E25 /* BTRRootViewController.m in Sources */,
+				EC1263B4181A707C00D93E25 /* BTRAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC1263AD181A707C00D93E25 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1263AE181A707C00D93E25 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC87F31E180C335B005C0D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC87F31F180C335B005C0D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC87F321180C335B005C0D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Support/TankRemote-Prefix.pch";
+				INFOPLIST_FILE = "Support/TankRemote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC87F322180C335B005C0D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Support/TankRemote-Prefix.pch";
+				INFOPLIST_FILE = "Support/TankRemote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC87F2EF180C335A005C0D00 /* Build configuration list for PBXProject "TankRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC87F31E180C335B005C0D00 /* Debug */,
+				EC87F31F180C335B005C0D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC87F320180C335B005C0D00 /* Build configuration list for PBXNativeTarget "TankRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC87F321180C335B005C0D00 /* Debug */,
+				EC87F322180C335B005C0D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC87F2EC180C335A005C0D00 /* Project object */;
+}
